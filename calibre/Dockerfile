@@ -2,7 +2,7 @@ FROM ghcr.io/linuxserver/baseimage-ubuntu:arm32v7-focal
 
 # set version label
 ARG BUILD_DATE
-ARG VERSION
+ARG VERSION="latest" 
 ARG CALIBREWEB_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
