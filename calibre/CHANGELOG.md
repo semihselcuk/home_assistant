@@ -1,9 +1,9 @@
 # Changelog
 
-## 0.6.12
+## 0.0.1
 
 - Changing ingress setting.
 
-## 0.6.13
+## 0.0.2
 
 - Updates.

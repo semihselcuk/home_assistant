@@ -1,6 +1,6 @@
 {
   "name": "Calibre Web Server",
-  "version": "0.6.12",
+  "version": "0.0.2",
   "slug": "calibre_webserver",
   "description": "Local Web Server for Calibre",
   "url": "https://github.com/linuxserver/docker-calibre-web",
