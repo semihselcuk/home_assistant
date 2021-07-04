@@ -1,0 +1,27 @@
+{
+  "name": "Calibre Web Server",
+  "version": "latest",
+  "slug": "calibre_webserver",
+  "description": "Local Web Server for Calibre v3",
+  "url": "https://github.com/linuxserver/docker-calibre-web",
+  "startup": "application",
+  "panel_icon": "mdi:book-multiple",
+  "panel_title": "Calibre",
+  "ingress": true,
+  "ingress_port": 0,
+  "boot": "auto",
+  "arch": ["armhf"],
+  "map": ["share:rw"],
+  "devices": [],
+  "ports": {
+    "8083/tcp": 8083
+  },
+  "ports_description": {
+    "8083/tcp": "Web interface"
+  },
+  "webui": "http://[HOST]:[PORT:8083]",
+  "host_network": true,
+  "options": {},
+  "schema": {},
+  "image": "ghcr.io/linuxserver/calibre-web"
+}
