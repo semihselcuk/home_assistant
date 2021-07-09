@@ -8,13 +8,13 @@
   "panel_icon": "mdi:book-multiple",
   "panel_title": "Calibre",
   "ingress": true,
-  "ingress_port": 0,
+  "ingress_port": 8083,
   "boot": "auto",
   "arch": ["armhf"],
   "map": ["share:rw"],
   "devices": [],
   "ports": {
-    "8083/tcp": null
+    "8083/tcp": 8083
   },
   "ports_description": {
     "8083/tcp": "Web interface(not required for Home Assistant ingress)"
