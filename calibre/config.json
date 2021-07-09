@@ -8,17 +8,17 @@
   "panel_icon": "mdi:book-multiple",
   "panel_title": "Calibre",
   "ingress": true,
+  "ingress_port": 8083,
   "boot": "auto",
   "arch": ["armhf"],
   "map": ["share:rw"],
   "devices": [],
   "ports": {
-    "8089/tcp": 8089
+    "8083/tcp": 8083
   },
   "ports_description": {
-    "8089/tcp": "Web interface(not required for Home Assistant ingress)"
+    "8083/tcp": "Web interface(not required for Home Assistant ingress)"
   },
-  "host_network": true,
   "options": {},
   "schema": {},
   "image": "ghcr.io/linuxserver/calibre-web"
