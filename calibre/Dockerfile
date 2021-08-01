@@ -14,6 +14,7 @@ RUN \
     g++ \
     gcc \
     git \
+    nginx \
     libffi-dev \
     libjpeg-dev \
     libldap2-dev \
